@@ -1,3 +1,9 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
 body{
     display: flex;
     justify-content: center;
@@ -9,18 +15,36 @@ body{
 }
 
 h1{
-    color: plum;
+    color: white;
     font-weight: bold;
 }
 
-footer{
-    
+.box {
+    position: fixed;
+    right: 10px; bottom: 0px;
+    width: 200px;
+    height:40px;
+    padding: 0px;
+}
+
+h6 {
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+a:link, a:visited{
+    color:pink;
+}
+
+a.hidden:link, a.hidden:visited{
+    color: navy;
 }
 
 html{
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
     background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
