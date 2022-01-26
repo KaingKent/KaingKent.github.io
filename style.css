@@ -34,11 +34,8 @@ body, html {
   color: white;
 }
 
-.hero-image {
-  /* - HERO -
-This code controls your "hero image." You will need to change hero.jpg to match your asset*/
-  
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("upI45pP.jpg");
+.home-image {  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("sun hike.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -49,7 +46,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
 
 /* Places text in the middle of the image */
 
-.hero-text {
+.home-text {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -61,7 +58,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
 
 }
 
-.hero-text h2 {   /* This section adds the text stylings for your hero block */
+.home-text h2 {   /* This section adds the text stylings for home block */
   display: block;
     font-size: 0.67em;
     margin-block-start: 2.33em;
@@ -72,8 +69,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
 }
 
 /*  - PARALLAX - 
-This code controls that cool parallax image and scrolling effect. Change the image "fuego.jpg" below to match your asset.*/
-/*You can always add more parllax assets on your web document, just follow the directions at the bottom of the index.html.*/
+This code controls that cool parallax image and scrolling effect*/
 .parallax-1 { 
   background-image: url("fuego.jpg");
 
