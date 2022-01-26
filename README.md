@@ -1,2 +1,4 @@
 # KaingKent.github.io
-website
+
+A type of personal portfolio
+
