@@ -8,6 +8,7 @@ body{
     margin: 0;
     padding: 0;
     color: white;
+    height: 100%;
     
 }
 a:link,a:visited{
@@ -19,7 +20,7 @@ a:link,a:visited{
 }
 .centerback{
   width: 100vh;
-  height: 100vh;
+  height: 100%;
   border-radius: 1rem;
   background: #333;
 }
@@ -63,14 +64,13 @@ a:link,a:visited{
     stroke-dashoffset: 0;
     stroke-dasharray: 3000;
   }
-
 .topnav {
     background-color: #333;
     overflow: hidden;
     position: fixed;
     top: 0;
     right: 0;
-  }
+}
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -98,21 +98,21 @@ a:link,a:visited{
     background-color: white;
     transition: all ease-in-out .2s;
   }
-  .topnav:hover::after{
-    width: 100%;
-    left: 0;
-  }
+.topnav:hover::after{
+  width: 100%;
+  left: 0;
+}
   
   /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: pink;
-    color: white;
-  }
+.topnav a.active {
+  background-color: pink;
+  color: white;
+}
 
 
 
 html{
-    background-image: url("background.jpg");
-    background-position: center center;
-    
+  height: 100%;
+  background-image: url("background.jpg");
+  background-position: center center;
 }

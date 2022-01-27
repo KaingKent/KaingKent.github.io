@@ -8,6 +8,7 @@ body{
     margin: 0;
     padding: 0;
     color: white;
+    height: 100%;
 }
 a:link,a:visited{
     color:#FF66AA;
@@ -19,7 +20,7 @@ a:link,a:visited{
 }
 .centerback{
   width: 100vh;
-  height: 100vh;
+  height: 100%;
   border-radius: 1rem;
   background: #333;
 }
@@ -112,7 +113,8 @@ a:link,a:visited{
 
 
 html{
-    background-image: url("background.jpg");
-    background-position: center center;
+  height: 100%;
+  background-image: url("background.jpg");
+  background-position: center center;
     
 }
