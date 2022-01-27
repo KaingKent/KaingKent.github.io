@@ -8,12 +8,12 @@ body{
     margin: 0;
     padding: 0;
     color: white;
+    
 }
 a:link,a:visited{
     color:#FF66AA;
 }
-
-#twine{
+.content{
     text-align: left;
     padding-left: 50px;
 }
