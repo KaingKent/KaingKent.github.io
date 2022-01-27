@@ -14,17 +14,7 @@ body{
   border-radius: 1rem;
   background: #333;
 }
-.text {
-    font-family: 'Roboto Condensed';
-    font-size: 22px;
-    line-height: 32px;
-    letter-spacing: 8px;
-    color: #fff;
-    top: -48px;
-    position: relative;
-    z-index: -1;
-    background: #222;
-  }
+
 .svg-wrapper {
     position: relative;
     top: 7%;
@@ -34,19 +24,35 @@ body{
   }
 
 .shape {  
-    stroke-dasharray: 140 540;
+    stroke-dasharray: 240 640;
     stroke-dashoffset: -474;
     stroke-width: 8px;
     fill: transparent;
-    stroke: #19f6e8;
+    stroke: #6bb2d7;
     border-bottom: 5px solid black;
     transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
   }
-
+  .text {
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 8px;
+    color: #fff;
+    top: -63px;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    background: #222;
+  }
 .svg-wrapper:hover .shape {
     stroke-width: 2px;
     stroke-dashoffset: 0;
-    stroke-dasharray: 760;
+    stroke-dasharray: 3000;
   }
 
 .topnav {
