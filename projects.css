@@ -20,7 +20,7 @@ a:link,a:visited{
 }
 .centerback{
   width: 100vh;
-  height: 100%;
+  height: 1000vw;
   border-radius: 1rem;
   background: #333;
 }
